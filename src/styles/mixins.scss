@@ -1,0 +1,57 @@
+@import "variables";
+
+@mixin h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: $colorDark;
+}
+
+@mixin h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  color: $colorDark;
+}
+
+@mixin h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: $colorDark;
+}
+
+@mixin fontRegular {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: $colorDark;
+}
+
+@mixin fontLabel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: $colorDark;
+}
+
+@mixin fontLabelCheckbox {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  color: $colorDark;
+}
+
+@mixin fontInput {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: $colorDark;
+}
