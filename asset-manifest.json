@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/web-creator/static/css/main.68c12053.chunk.css",
-    "main.js": "/web-creator/static/js/main.63ab2311.chunk.js",
-    "main.js.map": "/web-creator/static/js/main.63ab2311.chunk.js.map",
+    "main.css": "/web-creator/static/css/main.4d775889.chunk.css",
+    "main.js": "/web-creator/static/js/main.ad29cda3.chunk.js",
+    "main.js.map": "/web-creator/static/js/main.ad29cda3.chunk.js.map",
     "runtime-main.js": "/web-creator/static/js/runtime-main.15e798a2.js",
     "runtime-main.js.map": "/web-creator/static/js/runtime-main.15e798a2.js.map",
-    "static/css/2.764ccc25.chunk.css": "/web-creator/static/css/2.764ccc25.chunk.css",
-    "static/js/2.d03540ad.chunk.js": "/web-creator/static/js/2.d03540ad.chunk.js",
-    "static/js/2.d03540ad.chunk.js.map": "/web-creator/static/js/2.d03540ad.chunk.js.map",
+    "static/css/2.ca8dd2d1.chunk.css": "/web-creator/static/css/2.ca8dd2d1.chunk.css",
+    "static/js/2.701352d5.chunk.js": "/web-creator/static/js/2.701352d5.chunk.js",
+    "static/js/2.701352d5.chunk.js.map": "/web-creator/static/js/2.701352d5.chunk.js.map",
     "index.html": "/web-creator/index.html",
-    "precache-manifest.89d4e1bdb181ba34e06a461071408c49.js": "/web-creator/precache-manifest.89d4e1bdb181ba34e06a461071408c49.js",
+    "precache-manifest.864867de02e6d3ac284468bf8156be87.js": "/web-creator/precache-manifest.864867de02e6d3ac284468bf8156be87.js",
     "service-worker.js": "/web-creator/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/web-creator/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.68c12053.chunk.css.map": "/web-creator/static/css/main.68c12053.chunk.css.map",
-    "static/js/2.d03540ad.chunk.js.LICENSE": "/web-creator/static/js/2.d03540ad.chunk.js.LICENSE",
+    "static/css/2.ca8dd2d1.chunk.css.map": "/web-creator/static/css/2.ca8dd2d1.chunk.css.map",
+    "static/css/main.4d775889.chunk.css.map": "/web-creator/static/css/main.4d775889.chunk.css.map",
+    "static/js/2.701352d5.chunk.js.LICENSE": "/web-creator/static/js/2.701352d5.chunk.js.LICENSE",
     "static/media/common.scss": "/web-creator/static/media/Montserrat-SemiBold.67af3660.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.15e798a2.js",
-    "static/css/2.764ccc25.chunk.css",
-    "static/js/2.d03540ad.chunk.js",
-    "static/css/main.68c12053.chunk.css",
-    "static/js/main.63ab2311.chunk.js"
+    "static/css/2.ca8dd2d1.chunk.css",
+    "static/js/2.701352d5.chunk.js",
+    "static/css/main.4d775889.chunk.css",
+    "static/js/main.ad29cda3.chunk.js"
   ]
 }
