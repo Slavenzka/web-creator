@@ -1,11 +1,12 @@
 // common
 import React, { PureComponent } from 'react'
+// components
+import Input from 'containers/Form/Input/Input'
 // packages
 import { Col, Row } from 'react-bootstrap'
 import classNames from 'classnames'
 // styles
 import css from 'containers/Form/Form.module.scss'
-import Input from 'containers/Form/Input/Input'
 
 class Form extends PureComponent {
   state = {
@@ -61,11 +62,7 @@ class Form extends PureComponent {
           return (
             <Col
               md={groupName === 'main' ? 6 : 12}
-              style={{
-                paddingLeft: index % 2 !== 0 && '0',
-                paddingRight: groupName === 'main' && index % 2 === 0 && '0',
-                marginTop: index > 1 && '24px'
-              }}
+              className={css.formBlock}
               key={index}
             >
               <Input
@@ -86,11 +83,8 @@ class Form extends PureComponent {
         <Col
           {...dynamicBootstrapProp}
           key={key}
-          style={{
-            paddingLeft: key % 2 !== 0 && '0',
-            paddingRight: key % 2 === 0 && '0' }}
         >
-          <Row>
+          <Row style={{ height: groupName === 'additional' && '100%', alignItems: 'flex-start' }}>
             {groupContent}
           </Row>
         </Col>

@@ -1,10 +1,11 @@
 // common
 import React from 'react';
+// components
+import TextBlock from 'components/Info/TextBlock/TextBlock'
 // packages
 import { Row } from 'react-bootstrap'
 // styles
 import css from './Info.module.scss'
-import TextBlock from 'components/Info/TextBlock/TextBlock'
 
 const Info = props => {
   const content = props.data.components.map((item, key) => {

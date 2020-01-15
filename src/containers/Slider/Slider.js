@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import Swiper from 'react-id-swiper'
 import classnames from 'classnames'
+import { isMobile } from 'react-device-detect'
 // styles
 import css from 'containers/Slider/Slider.module.scss'
 
@@ -55,6 +56,8 @@ class Slider extends PureComponent {
     const { activeIndex } = this.state
     const { title, images, slidesPerView } = this.props.data
 
+    console.log(isMobile)
+
     const params = {
       slidesPerView: 1,
       spaceBetween: 24,
@@ -69,13 +72,17 @@ class Slider extends PureComponent {
       }
     }
 
-    const slidesQty = Math.ceil(images.length / slidesPerView)
+    const slidesQty = isMobile ? images.length : Math.ceil(images.length / slidesPerView)
 
     let structuredImages = this.structureSlides(images, slidesPerView)
 
-    const sliderContent = structuredImages.map((subarray, key) => {
-      const slide = subarray.map((item, index) => {
-        return <img className={css.image} src={item} key={index} alt='Фото-слайд' />
+    const sliderContent = isMobile
+      ? images.map((image, key) => {
+        return <img className={css.image} src={image} key={key} alt='Фото-слайд' />
+      })
+      : structuredImages.map((subarray, key) => {
+        const slide = subarray.map((item, index) => {
+          return <img className={css.image} src={item} key={index} alt='Фото-слайд' />
       })
 
       return (

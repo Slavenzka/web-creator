@@ -6,7 +6,7 @@ import Info from 'components/Info/Info'
 import Form from 'containers/Form/Form'
 // packages
 import axios from 'axios'
-import { Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 class PageMain extends Component {
   state = {
@@ -37,9 +37,9 @@ class PageMain extends Component {
       }
 
       return (
-        <Row key={key}>
+        <React.Fragment key={key}>
           {itemContent}
-        </Row>
+        </React.Fragment>
       )
     })
 
@@ -47,9 +47,7 @@ class PageMain extends Component {
       <main>
         <Container>
           {components}
-          <Row>
-            <Form data={data.form} />
-          </Row>
+          <Form data={data.form} />
         </Container>
       </main>
     )

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import css from './Header.module.scss'
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 class Header extends Component {
   render () {
@@ -8,9 +8,11 @@ class Header extends Component {
       <header className={css.header}>
         <Container>
           <Row>
-            <h1 className={css.title}>
-              Тестовое задание
-            </h1>
+            <Col>
+              <h1 className={css.title}>
+                Тестовое задание
+              </h1>
+            </Col>
           </Row>
         </Container>
       </header>
