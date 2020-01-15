@@ -1,6 +1,9 @@
+// common
 import React, { PureComponent } from 'react'
-import css from './Input.module.scss'
+// packages
 import classNames from 'classnames'
+// styles
+import css from './Input.module.scss'
 
 class Input extends PureComponent {
   state = {
@@ -17,7 +20,6 @@ class Input extends PureComponent {
 
 
   render () {
-    console.log(this.state.focused)
     const {
       type,
       label,

@@ -1,7 +1,10 @@
+// common
 import React, { Component } from 'react'
+// components
 import Slider from 'containers/Slider/Slider'
 import Info from 'components/Info/Info'
 import Form from 'containers/Form/Form'
+// packages
 import axios from 'axios'
 import { Container, Row } from 'react-bootstrap'
 
