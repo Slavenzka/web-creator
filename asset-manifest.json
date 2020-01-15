@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/web-creator/static/css/main.e651478c.chunk.css",
-    "main.js": "/web-creator/static/js/main.bdcec903.chunk.js",
-    "main.js.map": "/web-creator/static/js/main.bdcec903.chunk.js.map",
+    "main.js": "/web-creator/static/js/main.d84f30f9.chunk.js",
+    "main.js.map": "/web-creator/static/js/main.d84f30f9.chunk.js.map",
     "runtime-main.js": "/web-creator/static/js/runtime-main.15e798a2.js",
     "runtime-main.js.map": "/web-creator/static/js/runtime-main.15e798a2.js.map",
     "static/css/2.882c5872.chunk.css": "/web-creator/static/css/2.882c5872.chunk.css",
     "static/js/2.c5685c92.chunk.js": "/web-creator/static/js/2.c5685c92.chunk.js",
     "static/js/2.c5685c92.chunk.js.map": "/web-creator/static/js/2.c5685c92.chunk.js.map",
     "index.html": "/web-creator/index.html",
-    "precache-manifest.afacce530ce5e32bb3066a0346ee517b.js": "/web-creator/precache-manifest.afacce530ce5e32bb3066a0346ee517b.js",
+    "precache-manifest.daa2735c129486f19f85c435d4616cef.js": "/web-creator/precache-manifest.daa2735c129486f19f85c435d4616cef.js",
     "service-worker.js": "/web-creator/service-worker.js",
     "static/css/2.882c5872.chunk.css.map": "/web-creator/static/css/2.882c5872.chunk.css.map",
     "static/css/main.e651478c.chunk.css.map": "/web-creator/static/css/main.e651478c.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.882c5872.chunk.css",
     "static/js/2.c5685c92.chunk.js",
     "static/css/main.e651478c.chunk.css",
-    "static/js/main.bdcec903.chunk.js"
+    "static/js/main.d84f30f9.chunk.js"
   ]
 }
