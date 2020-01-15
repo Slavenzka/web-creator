@@ -80,14 +80,20 @@ class Input extends PureComponent {
         )
         break
       default:
-        inputElement = <input
-          className={css.input}
-          value={value}
-          onChange={changed}
-          id={id}
-          required={required}
-        />
-    }
+        inputElement = (
+          <div className={classNames(css.inputWrapper, { [css.inputWrapperFocus]: this.state.focused })}>
+            <input
+              className={css.input}
+              value={value}
+              onChange={changed}
+              id={id}
+              required={required}
+              onFocus={this.handleFocusedInput}
+              onBlur={this.handleFocusedInput}
+            />
+          </div>
+        )
+      }
 
     return (
       <div className={css.element}>
