@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import Slider from 'components/Slider/Slider'
+import Slider from 'containers/Slider/Slider'
 import Info from 'components/Info/Info'
-import Form from 'components/Form/Form'
+import Form from 'containers/Form/Form'
 import axios from 'axios'
+import { Container, Row } from 'react-bootstrap'
 
 class PageMain extends Component {
   state = {
@@ -18,12 +19,35 @@ class PageMain extends Component {
 
   render () {
     const { data } = this.state
-    console.log(data);
+
+    if (!data) return null;
+
+    const components = data.components.map((item, key) => {
+      let itemContent = null;
+      switch (item.type) {
+        case 'GalleryComponent':
+          itemContent = <Slider data={item.metadata} />
+          break
+        default:
+          itemContent = <Info data={item.metadata} />
+          break;
+      }
+
+      return (
+        <Row key={key}>
+          {itemContent}
+        </Row>
+      )
+    })
+
     return (
       <main>
-        <Slider />
-        <Info />
-        <Form />
+        <Container>
+          {components}
+          <Row>
+            <Form data={data.form} />
+          </Row>
+        </Container>
       </main>
     )
   }

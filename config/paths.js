@@ -83,6 +83,7 @@ module.exports = {
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  setupPolyfill: resolveApp('node_modules/react-app-polyfill/ie9'),
 };
 
 

@@ -1,0 +1,17 @@
+@import "styles/mixins";
+
+.wrapper {
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  @include h3;
+}
+
+.wyziwig {
+  p {
+    margin: 12px 0 0 0;
+    @include fontRegular;
+  }
+}

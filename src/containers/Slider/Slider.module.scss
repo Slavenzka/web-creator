@@ -1,0 +1,99 @@
+@import "../../styles/mixins";
+
+.wrapper {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.title {
+  @include h2;
+}
+
+.slider {
+  margin-top: 24px;
+}
+
+.slide {
+  display: flex;
+}
+
+.image {
+  display: block;
+  width: 364px;
+  height: 243px;
+  background-image: url("../../assets/images/no-image.png");
+  background-size: 100px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 12px;
+  color: $colorMedium;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &:not(:first-of-type) {
+    margin-left: 24px;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.bullet {
+  width: 12px;
+  height: 12px;
+  font-size: 0;
+  background-color: $colorMedium;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:not(:first-of-type) {
+    margin-left: 24px;
+  }
+}
+
+.bulletActive {
+  background-image: $colorGradient;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+
+  &:hover .icon {
+    fill: url(#linear-gradient) $colorHighlight;
+  }
+}
+
+.buttonNext {
+  .icon {
+    transform: rotate(180deg);
+  }
+}
+
+.buttonDisabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.icon {
+  fill: $colorMedium;
+  transition-duration: 0.3s;
+  pointer-events: none;
+}

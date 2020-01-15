@@ -1,15 +1,19 @@
+import 'core-js/es';
+import 'react-app-polyfill/ie11'
+import 'react-app-polyfill/stable'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css'
 import 'styles/common.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 const Page = (
-  <BrowserRouter>
+  <HashRouter basename='/'>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 )
 
 ReactDOM.render(Page, document.getElementById('root'));

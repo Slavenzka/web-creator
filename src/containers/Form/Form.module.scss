@@ -1,0 +1,74 @@
+@import "../../styles/mixins";
+
+.form {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  @include h3;
+}
+
+.title + .formWrapper {
+  margin-top: 24px;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+
+.labelWyziwig {
+  position: relative;
+  padding-left: 36px;
+  @include fontLabelCheckbox;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $colorMedium;
+    border-radius: 2px;
+  }
+
+  a {
+    color: $colorHighlight;
+  }
+}
+
+.labelWyziwigActive {
+  &::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 6px);
+    left: 3px;
+    width: 15px;
+    height: 12px;
+    background-image: url("../../assets/images/checkboxMark.svg");
+    background-size: cover;
+  }
+}
+
+.submit {
+  margin-top: 24px;
+  padding: 12px 24px;
+  min-width: 192px;
+  @include fontButton;
+  border: none;
+  box-shadow: none;
+  border-radius: 3px;
+  background-image: $colorGradient;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
