@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a61f8438b4ad3a942a70615b66cb8879",
+    "revision": "51bdc17bd873ee2a6b1d34d90b1dcc02",
     "url": "/web-creator/index.html"
   },
   {
-    "revision": "51e55f4db30ec8799087",
-    "url": "/web-creator/static/css/2.882c5872.chunk.css"
+    "revision": "1385acddea913b8f08c0",
+    "url": "/web-creator/static/css/2.d9091edf.chunk.css"
   },
   {
-    "revision": "59038810e1aa8fe5d9fd",
-    "url": "/web-creator/static/css/main.445cd7f6.chunk.css"
+    "revision": "11467696e66fe6a05fbb",
+    "url": "/web-creator/static/css/main.bf9dac61.chunk.css"
   },
   {
-    "revision": "51e55f4db30ec8799087",
-    "url": "/web-creator/static/js/2.4f47e666.chunk.js"
+    "revision": "1385acddea913b8f08c0",
+    "url": "/web-creator/static/js/2.c41ec765.chunk.js"
   },
   {
-    "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/web-creator/static/js/2.4f47e666.chunk.js.LICENSE"
+    "revision": "4dbbb2f867497f450e875b8f37375ddf",
+    "url": "/web-creator/static/js/2.c41ec765.chunk.js.LICENSE"
   },
   {
-    "revision": "59038810e1aa8fe5d9fd",
-    "url": "/web-creator/static/js/main.6ec8f6f6.chunk.js"
+    "revision": "11467696e66fe6a05fbb",
+    "url": "/web-creator/static/js/main.fea0494e.chunk.js"
   },
   {
     "revision": "fa0c29fc3243e870cddc",
