@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64036c0f5a15152c9139611e23fd2835",
+    "revision": "4b2f7e733938728d2a4eb7667c8dba84",
     "url": "/web-creator/index.html"
   },
   {
-    "revision": "70f443627770d78975a6",
-    "url": "/web-creator/static/css/2.d9091edf.chunk.css"
+    "revision": "b27a86315a02e6072370",
+    "url": "/web-creator/static/css/2.21062a03.chunk.css"
   },
   {
-    "revision": "40305ad27540c63ee544",
-    "url": "/web-creator/static/css/main.11c02dc2.chunk.css"
+    "revision": "ea2b2271e112b11c68ac",
+    "url": "/web-creator/static/css/main.6ca1211a.chunk.css"
   },
   {
-    "revision": "70f443627770d78975a6",
-    "url": "/web-creator/static/js/2.622189ba.chunk.js"
+    "revision": "b27a86315a02e6072370",
+    "url": "/web-creator/static/js/2.e2211185.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/web-creator/static/js/2.622189ba.chunk.js.LICENSE"
+    "url": "/web-creator/static/js/2.e2211185.chunk.js.LICENSE"
   },
   {
-    "revision": "40305ad27540c63ee544",
-    "url": "/web-creator/static/js/main.bbd278a2.chunk.js"
+    "revision": "ea2b2271e112b11c68ac",
+    "url": "/web-creator/static/js/main.6750642f.chunk.js"
   },
   {
     "revision": "fa0c29fc3243e870cddc",
@@ -42,5 +42,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67af366025f386d07c580f22f532f067",
     "url": "/web-creator/static/media/Montserrat-SemiBold.67af3660.woff"
+  },
+  {
+    "revision": "6e2aa063a4a36d2675edd6951fccf8b9",
+    "url": "/web-creator/static/media/checkboxMark.6e2aa063.svg"
+  },
+  {
+    "revision": "21d4403305341638b1124fa34a8a61c3",
+    "url": "/web-creator/static/media/i -calendar.21d44033.svg"
   }
 ]);
